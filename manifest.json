@@ -1,0 +1,19 @@
+{
+  "name": "Dream Chaser",
+  "short_name": "Dream Chaser",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#0F78BA",
+  "theme_color": "#087D86",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icons/android-chrome-192x192.png",
+      "type": "image/png", "sizes": "152x152"
+    },
+    {
+      "src": "icons/android-chrome-512x512.png",
+      "type": "image/png", "sizes": "512x512"
+    }
+  ]
+}

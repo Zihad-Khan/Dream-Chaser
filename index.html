@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dream Chaser</title>
+  <link rel="stylesheet" href="dChaser.css" type="text/css" />
+  <link rel="manifest" href="manifest.json" />
+<!-- ios support -->
+<link rel="apple-touch-icon" href="icons/android-chrome-152x152.png" />
+<link rel="apple-touch-icon" href="icons/android-chrome-512x512.png" />
+<meta name="apple-mobile-web-app-status-bar" content="#087D86" />
+<meta name="theme-color" content="#087D86" />
+</head>
+<body>
+  <header>
+    <h1 id="title">DREAM CHASER</h1>
+    <p id="moto">
+      Live for your dream...
+    </p>
+  </header>
+  <div id="welcome">
+    <p id='welcomeP'>
+      Hello <span id="userName">User</span>,<br>Here is your <bold>Deadline</bold> for_
+    </p>
+    <center><h1 id="subheader"></h1></center>
+    <div id="description">
+      <div class="dtitle">
+        <p>
+          DAY
+        </p>
+      </div>
+      <div class="dtitle">
+        <p>
+          HOUR
+        </p>
+      </div>
+      <div class="dtitle">
+        <p>
+          MIN
+        </p>
+      </div>
+      <div class="dtitle">
+        <p>
+          SEC
+        </p>
+      </div>
+    </div>
+    <div id="box">
+      <div class="boxchild">
+        <p id="day">
+          00
+        </p>
+      </div>
+      <div class="boxchild">
+        <p id="hour">
+          00
+        </p>
+      </div>
+      <div class="boxchild">
+        <p id="min">
+          00
+        </p>
+      </div>
+      <div class="boxchild">
+        <p id="sec">
+          00
+        </p>
+      </div>
+    </div>
+  </div>
+  <div id="studyPreview">
+    <h2 id="studyPreviewh2">Study preview</h2>
+    <div id="completion">
+      <div class="compTitle">
+        <p>
+          Revised☑
+        </p>
+      </div>
+      <div class="compTitle">
+        <p>
+          Completed☑
+        </p>
+      </div>
+      <div class="compTitle">
+        <p>
+          Incompleted✘
+        </p>
+      </div>
+    </div>
+    <div id="level">
+      <div class="levTitle">
+        <div id="rePer">
+        </div>
+      </div>
+      <div class="levTitle">
+        <div id="comPer">
+        </div>
+      </div>
+      <div class="levTitle">
+        <div id="uncomPer">
+        </div>
+      </div>
+    </div>
+    <div id="percentage">
+      <div class="perTitle">
+        00%
+      </div>
+      <div class="perTitle">
+        00%
+      </div>
+      <div class="perTitle">
+        100%
+      </div>
+    </div>
+    <h2 id="sub">Subjects</h2>
+    <div id="main">
+      <!-- Bangla 1st paper-->
+      <div class="subDiv">
+        <div class="eachSub">
+          <p class="subName">
+            Bangla 1st <span class="cursor">🔽</span>
+          </p>
+        </div>
+        <div class="container">
+          <div class="shortRev">
+            ☑:<span class="shortRevPer">00%</span>
+          </div>
+          <div class="shortCom">
+            ☑:<span class="shortComPer">00%</span>
+          </div>
+          <div class="shortUncom">
+            ✘:<span class="shortUncomPer">100%</span>
+          </div>
+        </div>
+      </div>
+      <div class="subContents">
+        <div class="b1Subjects">
+          <p>
+            অপরিচিতা
+          </p>
+          <div class="container2">
+            <span class="isB1Rev">☑</span> <span class="isB1Com">☑</span> <span class="isB1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="b1Subjects">
+          <p>
+            বিলাসী
+          </p>
+          <div class="container2">
+            <span class="isB1Rev">☑</span> <span class="isB1Com">☑</span> <span class="isB1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="b1Subjects">
+          <p>
+            আমার পথ
+          </p>
+          <div class="container2">
+            <span class="isB1Rev">☑</span> <span class="isB1Com">☑</span> <span class="isB1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="b1Subjects">
+          <p>
+            মানব-কল্যাণ
+          </p>
+          <div class="container2">
+            <span class="isB1Rev">☑</span> <span class="isB1Com">☑</span> <span class="isB1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="b1Subjects">
+          <p>
+            মাসি-পিসি
+          </p>
+          <div class="container2">
+            <span class="isB1Rev">☑</span> <span class="isB1Com">☑</span> <span class="isB1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="b1Subjects">
+          <p>
+            বা.দিনগুলো
+          </p>
+          <div class="container2">
+            <span class="isB1Rev">☑</span> <span class="isB1Com">☑</span> <span class="isB1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="b1Subjects">
+          <p>
+            রেইনকোট
+          </p>
+          <div class="container2">
+            <span class="isB1Rev">☑</span> <span class="isB1Com">☑</span> <span class="isB1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="b1Subjects">
+          <p>
+            সোনার তরী
+          </p>
+          <div class="container2">
+            <span class="isB1Rev">☑</span> <span class="isB1Com">☑</span> <span class="isB1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="b1Subjects">
+          <p>
+            বিদ্রোহী
+          </p>
+          <div class="container2">
+            <span class="isB1Rev">☑</span> <span class="isB1Com">☑</span> <span class="isB1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="b1Subjects">
+          <p>
+            প্রতিদান
+          </p>
+          <div class="container2">
+            <span class="isB1Rev">☑</span> <span class="isB1Com">☑</span> <span class="isB1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="b1Subjects">
+          <p>
+            তা.মনে পড়ে
+          </p>
+          <div class="container2">
+            <span class="isB1Rev">☑</span> <span class="isB1Com">☑</span> <span class="isB1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="b1Subjects">
+          <p>
+            আ.বছর বয়স
+          </p>
+          <div class="container2">
+            <span class="isB1Rev">☑</span> <span class="isB1Com">☑</span> <span class="isB1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="b1Subjects">
+          <p>
+            ফেব্রুয়ারী ১৯৬৯
+          </p>
+          <div class="container2">
+            <span class="isB1Rev">☑</span> <span class="isB1Com">☑</span> <span class="isB1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="b1Subjects">
+          <p>
+            আমি কিংবদন্তি.
+          </p>
+          <div class="container2">
+            <span class="isB1Rev">☑</span> <span class="isB1Com">☑</span> <span class="isB1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="b1Subjects">
+          <p>
+            লাল সালু
+          </p>
+          <div class="container2">
+            <span class="isB1Rev">☑</span> <span class="isB1Com">☑</span> <span class="isB1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="b1Subjects">
+          <p>
+            সিরাজউদ্দৌলা
+          </p>
+          <div class="container2">
+            <span class="isB1Rev">☑</span> <span class="isB1Com">☑</span> <span class="isB1Uncom">✘</span>
+          </div>
+        </div>
+      </div>
+      <!-- Bangla 2nd paper-->
+      <div class="subDiv">
+        <div class="eachSub">
+          <p class="subName">
+            Bangla 2nd<span class="cursor">🔽</span>
+          </p>
+        </div>
+        <div class="container">
+          <div class="shortRev">
+            ☑:<span class="shortRevPer">00%</span>
+          </div>
+          <div class="shortCom">
+            ☑:<span class="shortComPer">00%</span>
+          </div>
+          <div class="shortUncom">
+            ✘:<span class="shortUncomPer">100%</span>
+          </div>
+        </div>
+      </div>
+      <div class="subContents">
+        <div class="b2Subjects">
+          <p>
+            উচ্চারণ
+          </p>
+          <div class="container2">
+            <span class="isB2Rev">☑</span> <span class="isB2Com">☑</span> <span class="isB2Uncom">✘</span>
+          </div>
+        </div>
+        <div class="b2Subjects">
+          <p>
+            বানান
+          </p>
+          <div class="container2">
+            <span class="isB2Rev">☑</span> <span class="isB2Com">☑</span> <span class="isB2Uncom">✘</span>
+          </div>
+        </div>
+        <div class="b2Subjects">
+          <p>
+            ব্যা.শব্দশ্রেণী
+          </p>
+          <div class="container2">
+            <span class="isB2Rev">☑</span> <span class="isB2Com">☑</span> <span class="isB2Uncom">✘</span>
+          </div>
+        </div>
+        <div class="b2Subjects">
+          <p>
+            সমাস
+          </p>
+          <div class="container2">
+            <span class="isB2Rev">☑</span> <span class="isB2Com">☑</span> <span class="isB2Uncom">✘</span>
+          </div>
+        </div>
+        <div class="b2Subjects">
+          <p>
+            বাক্যতত্ত্ব
+          </p>
+          <div class="container2">
+            <span class="isB2Rev">☑</span> <span class="isB2Com">☑</span> <span class="isB2Uncom">✘</span>
+          </div>
+        </div>
+        <div class="b2Subjects">
+          <p>
+            অপপ্রয়োগ ও...
+          </p>
+          <div class="container2">
+            <span class="isB2Rev">☑</span> <span class="isB2Com">☑</span> <span class="isB2Uncom">✘</span>
+          </div>
+        </div>
+        <div class="b2Subjects">
+          <p>
+            পারিভাষিক
+          </p>
+          <div class="container2">
+            <span class="isB2Rev">☑</span> <span class="isB2Com">☑</span> <span class="isB2Uncom">✘</span>
+          </div>
+        </div>
+        <div class="b2Subjects">
+          <p>
+            আবেদন পত্র
+          </p>
+          <div class="container2">
+            <span class="isB2Rev">☑</span> <span class="isB2Com">☑</span> <span class="isB2Uncom">✘</span>
+          </div>
+        </div>
+        <div class="b2Subjects">
+          <p>
+            সারাংশ/ভাব...
+          </p>
+          <div class="container2">
+            <span class="isB2Rev">☑</span> <span class="isB2Com">☑</span> <span class="isB2Uncom">✘</span>
+          </div>
+        </div>
+        <div class="b2Subjects">
+          <p>
+            সংলাপ
+          </p>
+          <div class="container2">
+            <span class="isB2Rev">☑</span> <span class="isB2Com">☑</span> <span class="isB2Uncom">✘</span>
+          </div>
+        </div>
+      </div>
+      <!-- English 1st paper-->
+      <div class="subDiv">
+        <div class="eachSub">
+          <p class="subName">
+            English 1st<span class="cursor">🔽</span>
+          </p>
+        </div>
+        <div class="container">
+          <div class="shortRev">
+            ☑:<span class="shortRevPer">00%</span>
+          </div>
+          <div class="shortCom">
+            ☑:<span class="shortComPer">00%</span>
+          </div>
+          <div class="shortUncom">
+            ✘:<span class="shortUncomPer">100%</span>
+          </div>
+        </div>
+      </div>
+      <div class="subContents">
+        <div class="e1Subjects">
+          <p>
+            Textual Units
+          </p>
+          <div class="container2">
+            <span class="isE1Rev">☑</span> <span class="isE1Com">☑</span> <span class="isE1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="e1Subjects">
+          <p>
+            Without Clue
+          </p>
+          <div class="container2">
+            <span class="isE1Rev">☑</span> <span class="isE1Com">☑</span> <span class="isE1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="e1Subjects">
+          <p>
+            Rearranging
+          </p>
+          <div class="container2">
+            <span class="isE1Rev">☑</span> <span class="isE1Com">☑</span> <span class="isE1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="e1Subjects">
+          <p>
+            Paragraph
+          </p>
+          <div class="container2">
+            <span class="isE1Rev">☑</span> <span class="isE1Com">☑</span> <span class="isE1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="e1Subjects">
+          <p>
+            Story
+          </p>
+          <div class="container2">
+            <span class="isE1Rev">☑</span> <span class="isE1Com">☑</span> <span class="isE1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="e1Subjects">
+          <p>
+            Summary
+          </p>
+          <div class="container2">
+            <span class="isE1Rev">☑</span> <span class="isE1Com">☑</span> <span class="isE1Uncom">✘</span>
+          </div>
+        </div>
+      </div>
+      <!-- English 2nd paper-->
+      <div class="subDiv">
+        <div class="eachSub">
+          <p class="subName">
+            English 2  <span class="cursor">🔽</span>
+          </p>
+        </div>
+        <div class="container">
+          <div class="shortRev">
+            ☑:<span class="shortRevPer">00%</span>
+          </div>
+          <div class="shortCom">
+            ☑:<span class="shortComPer">00%</span>
+          </div>
+          <div class="shortUncom">
+            ✘:<span class="shortUncomPer">100%</span>
+          </div>
+        </div>
+      </div>
+      <div class="subContents">
+        <div class="e2Subjects">
+          <p>
+            Preposition
+          </p>
+          <div class="container2">
+            <span class="isE2Rev">☑</span> <span class="isE2Com">☑</span> <span class="isE2Uncom">✘</span>
+          </div>
+        </div>
+        <div class="e2Subjects">
+          <p>
+            With Clue
+          </p>
+          <div class="container2">
+            <span class="isE2Rev">☑</span> <span class="isE2Com">☑</span> <span class="isE2Uncom">✘</span>
+          </div>
+        </div>
+        <div class="e2Subjects">
+          <p>
+            Com.Sentence
+          </p>
+          <div class="container2">
+            <span class="isE2Rev">☑</span> <span class="isE2Com">☑</span> <span class="isE2Uncom">✘</span>
+          </div>
+        </div>
+        <div class="e2Subjects">
+          <p>
+            RFV
+          </p>
+          <div class="container2">
+            <span class="isE2Rev">☑</span> <span class="isE2Com">☑</span> <span class="isE2Uncom">✘</span>
+          </div>
+        </div>
+        <div class="e2Subjects">
+          <p>
+            Narration
+          </p>
+          <div class="container2">
+            <span class="isE2Rev">☑</span> <span class="isE2Com">☑</span> <span class="isE2Uncom">✘</span>
+          </div>
+        </div>
+        <div class="e2Subjects">
+          <p>
+            Connectors
+          </p>
+          <div class="container2">
+            <span class="isE2Rev">☑</span> <span class="isE2Com">☑</span> <span class="isE2Uncom">✘</span>
+          </div>
+        </div>
+        <div class="e2Subjects">
+          <p>
+            Application
+          </p>
+          <div class="container2">
+            <span class="isE2Rev">☑</span> <span class="isE2Com">☑</span> <span class="isE2Uncom">✘</span>
+          </div>
+        </div>
+        <div class="e2Subjects">
+          <p>
+            Paragraph
+          </p>
+          <div class="container2">
+            <span class="isE2Rev">☑</span> <span class="isE2Com">☑</span> <span class="isE2Uncom">✘</span>
+          </div>
+        </div>
+      </div>
+      <!-- phyaics 1st paper-->
+      <div class="subDiv">
+        <div class="eachSub">
+          <p class="subName">
+            Physics 1  <span class="cursor">🔽</span>
+          </p>
+        </div>
+        <div class="container">
+          <div class="shortRev">
+            ☑:<span class="shortRevPer">00%</span>
+          </div>
+          <div class="shortCom">
+            ☑:<span class="shortComPer">00%</span>
+          </div>
+          <div class="shortUncom">
+            ✘:<span class="shortUncomPer">100%</span>
+          </div>
+        </div>
+      </div>
+      <div class="subContents">
+        <div class="p1Subjects">
+          <p>
+            Measurements
+          </p>
+          <div class="container2">
+            <span class="isP1Rev">☑</span> <span class="isP1Com">☑</span> <span class="isP1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="p1Subjects">
+          <p>
+            Vector
+          </p>
+          <div class="container2">
+            <span class="isP1Rev">☑</span> <span class="isP1Com">☑</span> <span class="isP1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="p1Subjects">
+          <p>
+            N.Mechanics
+          </p>
+          <div class="container2">
+            <span class="isP1Rev">☑</span> <span class="isP1Com">☑</span> <span class="isP1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="p1Subjects">
+          <p>
+            W. P.& Energy
+          </p>
+          <div class="container2">
+            <span class="isP1Rev">☑</span> <span class="isP1Com">☑</span> <span class="isP1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="p1Subjects">
+          <p>
+            Gravitation
+          </p>
+          <div class="container2">
+            <span class="isP1Rev">☑</span> <span class="isP1Com">☑</span> <span class="isP1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="p1Subjects">
+          <p>
+            S.Properties
+          </p>
+          <div class="container2">
+            <span class="isP1Rev">☑</span> <span class="isP1Com">☑</span> <span class="isP1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="p1Subjects">
+          <p>
+            P. Motion
+          </p>
+          <div class="container2">
+            <span class="isP1Rev">☑</span> <span class="isP1Com">☑</span> <span class="isP1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="p1Subjects">
+          <p>
+            Ideal Gas
+          </p>
+          <div class="container2">
+            <span class="isP1Rev">☑</span> <span class="isP1Com">☑</span> <span class="isP1Uncom">✘</span>
+          </div>
+        </div>
+      </div>
+      <!-- phyaics 2nd paper-->
+      <div class="subDiv">
+        <div class="eachSub">
+          <p class="subName">
+            Physics 2  <span class="cursor">🔽</span>
+          </p>
+        </div>
+        <div class="container">
+          <div class="shortRev">
+            ☑:<span class="shortRevPer">00%</span>
+          </div>
+          <div class="shortCom">
+            ☑:<span class="shortComPer">00%</span>
+          </div>
+          <div class="shortUncom">
+            ✘:<span class="shortUncomPer">100%</span>
+          </div>
+        </div>
+      </div>
+      <div class="subContents">
+        <div class="p2Subjects">
+          <p>
+            Thermodynamics
+          </p>
+          <div class="container2">
+            <span class="isP2Rev">☑</span> <span class="isP2Com">☑</span> <span class="isP2Uncom">✘</span>
+          </div>
+        </div>
+        <div class="p2Subjects">
+          <p>
+            S. Electricity
+          </p>
+          <div class="container2">
+            <span class="isP2Rev">☑</span> <span class="isP2Com">☑</span> <span class="isP2Uncom">✘</span>
+          </div>
+        </div>
+        <div class="p2Subjects">
+          <p>
+            C. Electricity
+          </p>
+          <div class="container2">
+            <span class="isP2Rev">☑</span> <span class="isP2Com">☑</span> <span class="isP2Uncom">✘</span>
+          </div>
+        </div>
+        <div class="p2Subjects">
+          <p>
+            Physical Optics
+          </p>
+          <div class="container2">
+            <span class="isP2Rev">☑</span> <span class="isP2Com">☑</span> <span class="isP2Uncom">✘</span>
+          </div>
+        </div>
+        <div class="p2Subjects">
+          <p>
+            Modern Phy.
+          </p>
+          <div class="container2">
+            <span class="isP2Rev">☑</span> <span class="isP2Com">☑</span> <span class="isP2Uncom">✘</span>
+          </div>
+        </div>
+        <div class="p2Subjects">
+          <p>
+            Nuclear Phy.
+          </p>
+          <div class="container2">
+            <span class="isP2Rev">☑</span> <span class="isP2Com">☑</span> <span class="isP2Uncom">✘</span>
+          </div>
+        </div>
+        <div class="p2Subjects">
+          <p>
+            Semiconductor
+          </p>
+          <div class="container2">
+            <span class="isP2Rev">☑</span> <span class="isP2Com">☑</span> <span class="isP2Uncom">✘</span>
+          </div>
+        </div>
+      </div>
+      <!-- Chemistry 1st paper-->
+      <div class="subDiv">
+        <div class="eachSub">
+          <p class="subName">
+            Chem. 1st <span class="cursor">🔽</span>
+          </p>
+        </div>
+        <div class="container">
+          <div class="shortRev">
+            ☑:<span class="shortRevPer">00%</span>
+          </div>
+          <div class="shortCom">
+            ☑:<span class="shortComPer">00%</span>
+          </div>
+          <div class="shortUncom">
+            ✘:<span class="shortUncomPer">100%</span>
+          </div>
+        </div>
+      </div>
+      <div class="subContents">
+        <div class="c1Subjects">
+          <p>
+            Q. Chemistry
+          </p>
+          <div class="container2">
+            <span class="isC1Rev">☑</span> <span class="isC1Com">☑</span> <span class="isC1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="c1Subjects">
+          <p>
+            Periodic Prop...
+          </p>
+          <div class="container2">
+            <span class="isC1Rev">☑</span> <span class="isC1Com">☑</span> <span class="isC1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="c1Subjects">
+          <p>
+            Chem. Change
+          </p>
+          <div class="container2">
+            <span class="isC1Rev">☑</span> <span class="isC1Com">☑</span> <span class="isC1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="c1Subjects">
+          <p>
+            Voc. Chemistry
+          </p>
+          <div class="container2">
+            <span class="isC1Rev">☑</span> <span class="isC1Com">☑</span> <span class="isC1Uncom">✘</span>
+          </div>
+        </div>
+      </div>
+      <!-- Chemistry 2nd paper-->
+      <div class="subDiv">
+        <div class="eachSub">
+          <p class="subName">
+            Chem. 2nd <span class="cursor">🔽</span>
+          </p>
+        </div>
+        <div class="container">
+          <div class="shortRev">
+            ☑:<span class="shortRevPer">00%</span>
+          </div>
+          <div class="shortCom">
+            ☑:<span class="shortComPer">00%</span>
+          </div>
+          <div class="shortUncom">
+            ✘:<span class="shortUncomPer">100%</span>
+          </div>
+        </div>
+      </div>
+      <div class="subContents">
+        <div class="c2Subjects">
+          <p>
+            Env. Chemistry
+          </p>
+          <div class="container2">
+            <span class="isC2Rev">☑</span> <span class="isC2Com">☑</span> <span class="isC2Uncom">✘</span>
+          </div>
+        </div>
+        <div class="c2Subjects">
+          <p>
+            Organic Chem.
+          </p>
+          <div class="container2">
+            <span class="isC2Rev">☑</span> <span class="isC2Com">☑</span> <span class="isC2Uncom">✘</span>
+          </div>
+        </div>
+        <div class="c2Subjects">
+          <p>
+            Q. Chemistry
+          </p>
+          <div class="container2">
+            <span class="isC2Rev">☑</span> <span class="isC2Com">☑</span> <span class="isC2Uncom">✘</span>
+          </div>
+        </div>
+        <div class="c2Subjects">
+          <p>
+            Electro Chem.
+          </p>
+          <div class="container2">
+            <span class="isC2Rev">☑</span> <span class="isC2Com">☑</span> <span class="isC2Uncom">✘</span>
+          </div>
+        </div>
+      </div>
+      <!-- Math 1st paper-->
+      <div class="subDiv">
+        <div class="eachSub">
+          <p class="subName">
+            Math 1st <span class="cursor">🔽</span>
+          </p>
+        </div>
+        <div class="container">
+          <div class="shortRev">
+            ☑:<span class="shortRevPer">00%</span>
+          </div>
+          <div class="shortCom">
+            ☑:<span class="shortComPer">00%</span>
+          </div>
+          <div class="shortUncom">
+            ✘:<span class="shortUncomPer">100%</span>
+          </div>
+        </div>
+      </div>
+      <div class="subContents">
+        <div class="m1Subjects">
+          <p>
+            Matrix
+          </p>
+          <div class="container2">
+            <span class="isM1Rev">☑</span> <span class="isM1Com">☑</span> <span class="isM1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="m1Subjects">
+          <p>
+            Straight Line
+          </p>
+          <div class="container2">
+            <span class="isM1Rev">☑</span> <span class="isM1Com">☑</span> <span class="isM1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="m1Subjects">
+          <p>
+            Circle
+          </p>
+          <div class="container2">
+            <span class="isM1Rev">☑</span> <span class="isM1Com">☑</span> <span class="isM1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="m1Subjects">
+          <p>
+            Trigonometry
+          </p>
+          <div class="container2">
+            <span class="isM1Rev">☑</span> <span class="isM1Com">☑</span> <span class="isM1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="m1Subjects">
+          <p>
+            Differentiation
+          </p>
+          <div class="container2">
+            <span class="isM1Rev">☑</span> <span class="isM1Com">☑</span> <span class="isM1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="m1Subjects">
+          <p>
+            Integration
+          </p>
+          <div class="container2">
+            <span class="isM1Rev">☑</span> <span class="isM1Com">☑</span> <span class="isM1Uncom">✘</span>
+          </div>
+        </div>
+      </div>
+      <!-- Math 2nd paper-->
+      <div class="subDiv">
+        <div class="eachSub">
+          <p class="subName">
+            Math 2nd <span class="cursor">🔽</span>
+          </p>
+        </div>
+        <div class="container">
+          <div class="shortRev">
+            ☑:<span class="shortRevPer">00%</span>
+          </div>
+          <div class="shortCom">
+            ☑:<span class="shortComPer">00%</span>
+          </div>
+          <div class="shortUncom">
+            ✘:<span class="shortUncomPer">100%</span>
+          </div>
+        </div>
+      </div>
+      <div class="subContents">
+        <div class="m2Subjects">
+          <p>
+            Com. Number
+          </p>
+          <div class="container2">
+            <span class="isM2Rev">☑</span> <span class="isM2Com">☑</span> <span class="isM2Uncom">✘</span>
+          </div>
+        </div>
+        <div class="m2Subjects">
+          <p>
+            Polynomial
+          </p>
+          <div class="container2">
+            <span class="isM2Rev">☑</span> <span class="isM2Com">☑</span> <span class="isM2Uncom">✘</span>
+          </div>
+        </div>
+        <div class="m2Subjects">
+          <p>
+            Conics
+          </p>
+          <div class="container2">
+            <span class="isM2Rev">☑</span> <span class="isM2Com">☑</span> <span class="isM2Uncom">✘</span>
+          </div>
+        </div>
+        <div class="m2Subjects">
+          <p>
+            I.Trigonometry
+          </p>
+          <div class="container2">
+            <span class="isM2Rev">☑</span> <span class="isM2Com">☑</span> <span class="isM2Uncom">✘</span>
+          </div>
+        </div>
+        <div class="m2Subjects">
+          <p>
+            Statics
+          </p>
+          <div class="container2">
+            <span class="isM2Rev">☑</span> <span class="isM2Com">☑</span> <span class="isM2Uncom">✘</span>
+          </div>
+        </div>
+        <div class="m2Subjects">
+          <p>
+            Dynamics
+          </p>
+          <div class="container2">
+            <span class="isM2Rev">☑</span> <span class="isM2Com">☑</span> <span class="isM2Uncom">✘</span>
+          </div>
+        </div>
+      </div>
+      <!-- Biology 1st paper-->
+      <div class="subDiv">
+        <div class="eachSub">
+          <p class="subName">
+            Biology 1st<span class="cursor">🔽</span>
+          </p>
+        </div>
+        <div class="container">
+          <div class="shortRev">
+            ☑:<span class="shortRevPer">00%</span>
+          </div>
+          <div class="shortCom">
+            ☑:<span class="shortComPer">00%</span>
+          </div>
+          <div class="shortUncom">
+            ✘:<span class="shortUncomPer">100%</span>
+          </div>
+        </div>
+      </div>
+      <div class="subContents">
+        <div class="bio1Subjects">
+          <p>
+            Cell
+          </p>
+          <div class="container2">
+            <span class="isBio1Rev">☑</span> <span class="isBio1Com">☑</span> <span class="isBio1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="bio1Subjects">
+          <p>
+            Cell Division
+          </p>
+          <div class="container2">
+            <span class="isBio1Rev">☑</span> <span class="isBio1Com">☑</span> <span class="isBio1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="bio1Subjects">
+          <p>
+            Microbe
+          </p>
+          <div class="container2">
+            <span class="isBio1Rev">☑</span> <span class="isBio1Com">☑</span> <span class="isBio1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="bio1Subjects">
+          <p>
+            Gymno&Angio
+          </p>
+          <div class="container2">
+            <span class="isBio1Rev">☑</span> <span class="isBio1Com">☑</span> <span class="isBio1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="bio1Subjects">
+          <p>
+            Tissue
+          </p>
+          <div class="container2">
+            <span class="isBio1Rev">☑</span> <span class="isBio1Com">☑</span> <span class="isBio1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="bio1Subjects">
+          <p>
+            P.Physiology
+          </p>
+          <div class="container2">
+            <span class="isBio1Rev">☑</span> <span class="isBio1Com">☑</span> <span class="isBio1Uncom">✘</span>
+          </div>
+        </div>
+        <div class="bio1Subjects">
+          <p>
+            Biotechnology
+          </p>
+          <div class="container2">
+            <span class="isBio1Rev">☑</span> <span class="isBio1Com">☑</span> <span class="isBio1Uncom">✘</span>
+          </div>
+        </div>
+      </div>
+      <!-- Biology 2nd paper-->
+      <div class="subDiv">
+        <div class="eachSub">
+          <p class="subName">
+            Biology 2 <span class="cursor">🔽</span>
+          </p>
+        </div>
+        <div class="container">
+          <div class="shortRev">
+            ☑:<span class="shortRevPer">00%</span>
+          </div>
+          <div class="shortCom">
+            ☑:<span class="shortComPer">00%</span>
+          </div>
+          <div class="shortUncom">
+            ✘:<span class="shortUncomPer">100%</span>
+          </div>
+        </div>
+      </div>
+      <div class="subContents">
+        <div class="bio2Subjects">
+          <p>
+            A.Diversity
+          </p>
+          <div class="container2">
+            <span class="isBio2Rev">☑</span> <span class="isBio2Com">☑</span> <span class="isBio2Uncom">✘</span>
+          </div>
+        </div>
+        <div class="bio2Subjects">
+          <p>
+            A.Identity
+          </p>
+          <div class="container2">
+            <span class="isBio2Rev">☑</span> <span class="isBio2Com">☑</span> <span class="isBio2Uncom">✘</span>
+          </div>
+        </div>
+        <div class="bio2Subjects">
+          <p>
+            Digestion
+          </p>
+          <div class="container2">
+            <span class="isBio2Rev">☑</span> <span class="isBio2Com">☑</span> <span class="isBio2Uncom">✘</span>
+          </div>
+        </div>
+        <div class="bio2Subjects">
+          <p>
+            Blood
+          </p>
+          <div class="container2">
+            <span class="isBio2Rev">☑</span> <span class="isBio2Com">☑</span> <span class="isBio2Uncom">✘</span>
+          </div>
+        </div>
+        <div class="bio2Subjects">
+          <p>
+            Respiration
+          </p>
+          <div class="container2">
+            <span class="isBio2Rev">☑</span> <span class="isBio2Com">☑</span> <span class="isBio2Uncom">✘</span>
+          </div>
+        </div>
+        <div class="bio2Subjects">
+          <p>
+            Skeleton
+          </p>
+          <div class="container2">
+            <span class="isBio2Rev">☑</span> <span class="isBio2Com">☑</span> <span class="isBio2Uncom">✘</span>
+          </div>
+        </div>
+        <div class="bio2Subjects">
+          <p>
+            Genetics
+          </p>
+          <div class="container2">
+            <span class="isBio2Rev">☑</span> <span class="isBio2Com">☑</span> <span class="isBio2Uncom">✘</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <center>
+        <p class="quote">"Hey champ😎! Let's chase our dream everyday!"</p>
+        <div class="guide">
+          <div class="guide1"><p id="homeScreen">Add to home screen🔽</p></div>
+          <div class="guide2"><p>Add this application to your home screen and enjoy APP like features.</p></div>
+        </div>
+        <div class="guide">
+          <div class="guide1"><p id="useCase">See best usecase🔽</p></div>
+          <div class="guide2"><p>DREAM CHASER does not own any remote server. All your data is only saved in your browser. So try to use same browser each time. Otherwise your data will no longer accessible!</p></p></div>
+        </div>
+        <div id="sourceLink"><a id="srcCode" href="https://github.com/Zihad-Khan">Get source code↗️</a></div>
+        <div class="contact"> 
+        <h2>Developer Contact</h2>
+        <div class="cInfo">
+          <a href="https://www.facebook.com/md.murshidkhan.zihad">Facebook</a>
+          <a href="mailto:mkzihad307@gmail.com">Email</a>
+          
+        </div>
+        </div>
+      </center>
+    </footer>
+    <script src='dChaser.js' type="text/javascript" charset="utf-8">
+    </script>
+  </body>
+</html>
